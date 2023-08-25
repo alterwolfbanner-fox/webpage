@@ -1,0 +1,13 @@
+<form action="/" method="post">
+    <label for="command">Enter a command...</label>
+    <input type="text" name="command"><br/>
+    
+    <input type="submit" value="Send">    
+</form>
+<div>
+    {% for row in x %}
+    <ul>
+        {{row}}
+    </ul>
+{% endfor %}
+</div>
